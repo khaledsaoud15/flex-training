@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+::selection {
+  background: #fff;
+  color: #ff7a7a;
+}
+
+.container {
+  width: 80%;
+  height: 90vh;
+  background: #ff7a7a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("images/bg-intro-desktop.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  color: #fff;
+  gap: 50px;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  width: 100%;
+}
+
+.content h1 {
+  font-size: 2.4rem;
+  width: 80%;
+  line-height: 40px;
+  margin-right: auto;
+}
+
+.content p {
+  font-size: 12px;
+  margin-top: 20px;
+  width: 90%;
+  margin-right: auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-right: 190px;
+}
+
+.input-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  height: 50vh;
+  border-radius: 8px;
+  width: 100%;
+  padding: 25px 50px;
+  box-shadow: 0 7px 0px 0px #00000038;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  /* padding: 25px 35px; */
+}
+
+.input-form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 2px;
+}
+.input-content input::placeholder {
+  color: #000;
+  font-weight: 500;
+}
+
+.input-content button {
+  width: 112%;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  background: #38cc8c;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  box-shadow: 0 3px 0px 0px #00000038;
+}
+
+.inputs p {
+  font-size: 10px;
+  color: #999;
+}
+.inputs p span {
+  color: #ff7a7a;
+  font-weight: 700;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 129%;
+  padding: 15px 0;
+  border: none;
+  outline: none;
+  background: #6055a5;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  box-shadow: 0 5px 0px 0px #00000038;
+}
+
+.btn span {
+  font-weight: 200;
+  color: #ececec;
+  margin-left: 8px;
+}
